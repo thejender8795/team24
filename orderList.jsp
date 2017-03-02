@@ -35,7 +35,7 @@
 								Address：${d.address}
 								<br>
 								Booking no: ${d.num}&nbsp;&nbsp;&nbsp;&nbsp;
-								Booking price：￥<font color="red">${d.price }</font>元 &nbsp;&nbsp;&nbsp;&nbsp;
+								Booking price：SEK<font color="red">${d.price }</font>kr &nbsp;&nbsp;&nbsp;&nbsp;
 								How to pay：<c:if test="${d.type eq 'ICBC-NET-B2C'}">ICBC</c:if>
 										<c:if test="${d.type eq 'BOC-NET-B2C'}">CHINA BANK</c:if> &nbsp;&nbsp;&nbsp;&nbsp;
 								Booking Time：<fmt:formatDate value="${d.createDate}" pattern="yyyy/MM/dd  HH:mm:ss"/>
@@ -56,7 +56,7 @@
 								<td>${item.title}</td>
 								<td>SEK ${item.price} kr</td>
 								<td class="quantity" width="60">${item.count}</td>
-								<td width="140"><span class="subtotal">￥SEK ${item.price * item.count} kr</span></td>
+								<td width="140"><span class="subtotal">SEK ${item.price * item.count} kr</span></td>
 							</tr>
 						</c:forEach>
 					</c:forEach>
