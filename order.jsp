@@ -26,7 +26,7 @@
 						<tr>
 							<td width="60"><img src="${ ctx }/${ orderItem.product.img}" /></td>
 							<td>${orderItem.product.title}</td>
-							<td>￥${orderItem.price} SEK</td>
+							<td>SEK${orderItem.price} kr</td>
 							<td class="quantity" width="60">${orderItem.count}</td>
 							<td width="140"><span class="subtotal">￥${orderItem.price * orderItem.count} 元</span></td>
 						</tr>
