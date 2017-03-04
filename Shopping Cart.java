@@ -14,7 +14,7 @@ public class Cart {
 		this.pid = product.getId();
 		this.product = product;
 		this.count = count;
-		this.price = product.getPriceShop();;
+		this.price = product.getPriceShop();
 	}
 	public int getPid() {
 		return pid;
