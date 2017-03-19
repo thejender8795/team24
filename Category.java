@@ -56,7 +56,7 @@ public class Category implements Serializable{
 	}
 	// Custom Comparators: Sort by category id 
     static class IdComparator implements Comparator<CategorySecond> {  
-        public int compare(CategorySecond o1, CategorySecond o2) {// 实现接口中的方法  
+        public int compare(CategorySecond o1, CategorySecond o2) {// implement the methods in the interface  
             return o1.getId() - o2.getId();  
         }  
     } 
