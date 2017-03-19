@@ -9,7 +9,7 @@
 <script type="text/javascript" src="${shop}/js/jquery-1.8.3.js"></script>
 <script type="text/javascript">
 function checkCount(){
-	var r = /^[0-9]*[1-9][0-9]*$/　　//正整数 
+	var r = /^[0-9]*[1-9][0-9]*$/　　//positive integer
 	var count = $("#count").val();
 	if (!r.test(count)){
 		$("#count").val(1);
