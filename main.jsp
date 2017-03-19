@@ -35,7 +35,7 @@ $(function(){
 		loginUrl:"login.html",	// jump to the login page
 		statusCode:{ok:200, error:300, timeout:301}, //optional
 		pageInfo:{pageNum:"pageNum", numPerPage:"numPerPage", orderField:"orderField", orderDirection:"orderDirection"}, //optional
-		keys: {statusCode:"statusCode", message:"message"}, //【可选】
+		keys: {statusCode:"statusCode", message:"message"}, // optional
 		ui:{hideMode:'offsets'}, //optional
 hideMode:navTabThe way the components are switched，The supported values ​​are available’display’，’offsets’The value of the negative offset position，The default value is’display’
 		debug:false,	// Debug mode 【true|false】
